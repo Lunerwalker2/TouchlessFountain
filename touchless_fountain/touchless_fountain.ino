@@ -4,7 +4,7 @@ const int trigPin = 9; //Ping pin
 const int echoPin = 10; //Echo pin
 
 //Speed of sound in cm/microseconds
-const float speedSoundPerMicrosec = 0.343;
+const float speedSoundPerMicrosec = 0.0343;
 
 float duration; //Elapsed time for each, in mircrosecs
 float distance; //Calculated distance to object in cm
